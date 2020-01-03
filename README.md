@@ -1,7 +1,5 @@
 ## Kubernetes HANDS-OD GUIDE
 
-Unordered
-
 + [Guide 01 - Kubernetes Install](https://github.com/sunpyopark/aws/blob/master/guide/ElasticBeanstalk/guide-01.md/ "Guide 01 - Beanstalk")
   - [Task 01 - Elastic Beanstalk으로 Node.js 애플리케이션과 환경 생성하기](https://github.com/sunpyopark/aws/blob/master/guide/ElasticBeanstalk/guide-01.md "Guide 01 - Beanstalk")
   - [Task 02 - AWS 콘솔에서 Elastic Beanstalk Node.js 애플리케이션 배포하기](https://github.com/sunpyopark/aws/blob/master/guide/ElasticBeanstalk/guide-01.md "Guide 01 - Beanstalk")
