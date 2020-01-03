@@ -1,48 +1,47 @@
-## 애플리케이션 배포를 위한 GKE 만들기
-
-Inline `code`
-
-Indented code
-
-    // Some comments
-    line 1 of code
-    line 2 of code
-    line 3 of code
+## INSTALL FOR MASTER & WORKER NOD
 
 
-1. Cloud Shell에서 새 GKE 클러스터를 만듭니다.
+1. Change Root user form common user
 
 ```
-REGION=us-west1-b
-gcloud config set compute/zone $REGION
-gcloud container clusters create app-cluster \
---machine-type=n1-standard-2
+sudo su -
 ```
 
-2. 새 GKE 클러스터를 Spinnaker에 추가합니다
+2. Install Required packages and apt keys
 
 ```
-~/spinnaker-for-gcp/scripts/manage/add_gke_account.sh
+sudo apt-get update && sudo apt-get install -y apt-transport-https
+curl -s https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key add -
+echo "deb https://apt.kubernetes.io/ kubernetes-xenial main" | sudo tee -a /etc/apt/sources.list.d/kubernetes.list
+sudo apt-get update
 ```
 
-3. kubernetes 컨텍스트를 다시 Spinnaker 클러스터로 변경
+3. Turn Off Swap Space
 
 ```
-kubectl config use-context gke_${DEVSHELL_PROJECT_ID}_${REGION}_spinnaker-1
+swapoff -a
+sed -i '/ swap / s/^\(.*\)$/#\1/g' /etc/fstab
 ```
 
-4. 구성 변경사항을 푸시하여 Spinnaker에 적용
+4. Install And Enable Docker
 
 ```
-~/spinnaker-for-gcp/scripts/manage/push_and_apply.sh
+apt install docker.io -y
+usermod -aG docker ubuntu
+systemctl restart docker
+systemctl enable docker.service
 ```
 
-Syntax highlighting
+5. Install kubeadm, Kubelet And Kubectl
 
-``` js
-var foo = function (bar) {
-  return bar++;
-};
+```
+apt-get install -y kubelet kubeadm kubectl kubernetes-cni
+```
 
-console.log(foo(5));
+6. Enable and start kubelet service
+
+```
+systemctl daemon-reload
+systemctl start kubelet
+systemctl enable kubelet.service
 ```
