@@ -17,6 +17,12 @@ PROJECT_ID=${DEVSHELL_PROJECT_ID} ~/spinnaker-for-gcp/scripts/install/setup_prop
 ~/spinnaker-for-gcp/scripts/install/setup.sh
 ```
 
+Spinnaker에 연결합니다
+
+```
+~/spinnaker-for-gcp/scripts/manage/connect_unsecured.sh
+```
+
 Syntax highlighting
 
 ``` js
