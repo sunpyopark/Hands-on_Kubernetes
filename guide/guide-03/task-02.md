@@ -1,4 +1,4 @@
-## INSTALL FOR MASTER & WORKER NOD
+## INSTALL FOR MASTER & WORKER NODE
 
 
 1. Change Root user form common user
