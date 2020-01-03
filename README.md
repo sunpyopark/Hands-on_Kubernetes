@@ -17,7 +17,6 @@
 
 + [Guide 03 - Kubernetes with Spinnaker](https://github.com/sunpyopark/aws/blob/master/guide/ElasticBeanstalk/guide-01.md/ "Guide 01 - Beanstalk")
   - [Task 01 - Continuous Deployment Pipeline with Spinnaker and Google Kubernetes Engine](https://github.com/sunpyopark/aws/blob/master/guide/ElasticBeanstalk/guide-01.md "Guide 01 - Beanstalk")
-   * [Ac tristique libero volutpat at](https://github.com/sunpyopark/aws/blob/master/guide/ElasticBeanstalk/guide-01.md "Guide 01 - Beanstalk")
     * [Ac tristique libero volutpat at](https://github.com/sunpyopark/aws/blob/master/guide/ElasticBeanstalk/guide-01.md "Guide 01 - Beanstalk")
     + Facilisis in pretium nisl aliquet
     - Nulla volutpat aliquam velit
