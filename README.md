@@ -2,7 +2,7 @@
 
 + [Guide 01 - Kubernetes Install](https://github.com/sunpyopark/aws/blob/master/guide/ElasticBeanstalk/guide-01.md/ "Guide 01 - Beanstalk")
   - [Task 01 - Kubernetes Install with AWS using Kubeadm](https://github.com/sunpyopark/aws/blob/master/guide/ElasticBeanstalk/guide-01.md "Guide 01 - Beanstalk")
-    * [INSTALL FOR AWS using EC2](https://github.com/sunpyopark/Hands-on_Kubernetes/blob/master/guide/guide-01/task-01/part-01.md "Guide 01 - Beanstalk")
+    * [INSTALL FOR AWS using EC2 with Terraform as a Infrastructure as Code](https://github.com/sunpyopark/Hands-on_Kubernetes/blob/master/guide/guide-01/task-01/part-01.md "Guide 01 - Beanstalk")
     + [INSTALL FOR MASTER & WORKER NODE](https://github.com/sunpyopark/Hands-on_Kubernetes/blob/master/guide/guide-01/task-01/part-02.md "Guide 01 - Beanstalk")
     - [INSTALL FOR NODE](https://github.com/sunpyopark/Hands-on_Kubernetes/blob/master/guide/guide-01/task-01/part-03.md "Guide 01 - Beanstalk")
     + [INSTALL FOR WORKER NODE](https://github.com/sunpyopark/Hands-on_Kubernetes/blob/master/guide/guide-01/task-01/part-04.md "Guide 01 - Beanstalk")
