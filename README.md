@@ -15,8 +15,7 @@
   - [Task 03 - OpsWorks PHP 인스턴스 생성하기](https://github.com/sunpyopark/aws/blob/master/guide/ElasticBeanstalk/guide-01.md "Guide 01 - Beanstalk")
   - [Task 04 - OpsWorks PHP App 생성하기](https://github.com/sunpyopark/aws/blob/master/guide/ElasticBeanstalk/guide-01.md "Guide 01 - Beanstalk")
 
-+ [Guide 03 - Continuous Deployment Pipeline with Spinnaker and Google Kubernetes Engine](https://github.com/sunpyopark/Hands-on_Kubernetes/blob/master/guide/guide-03.md "Guide 01 - Beanstalk")
-  - [Task 01 - 환경 설정](https://github.com/sunpyopark/aws/blob/master/guide/ElasticBeanstalk/guide-01.md "Guide 01 - Beanstalk")
++ [Guide 03 - Continuous Deployment Pipeline with Spinnaker and Google Kubernetes Engine](https://github.com/sunpyopark/Hands-on_Kubernetes/blob/master/guide/guide-03.md "Guide 01 - Beanstalk")  - [Task 01 - 환경 설정](https://github.com/sunpyopark/aws/blob/master/guide/ElasticBeanstalk/guide-01.md "Guide 01 - Beanstalk")
     * [Google Cloud Preferences](https://github.com/sunpyopark/aws/blob/master/guide/ElasticBeanstalk/guide-01.md "Guide 01 - Beanstalk")
     + Facilisis in pretium nisl aliquet
     - Nulla volutpat aliquam velit
