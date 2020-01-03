@@ -10,10 +10,11 @@ Indented code
     line 3 of code
 
 
-Block code "fences"
+Google Cloud용 Spinnaker를 설치
 
 ```
-Sample text here...
+PROJECT_ID=${DEVSHELL_PROJECT_ID} ~/spinnaker-for-gcp/scripts/install/setup_properties.sh
+~/spinnaker-for-gcp/scripts/install/setup.sh
 ```
 
 Syntax highlighting
