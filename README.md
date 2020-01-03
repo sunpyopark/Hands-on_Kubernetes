@@ -1,7 +1,7 @@
 ## Kubernetes HANDS-OD GUIDE
 
 + [Guide 01 - Kubernetes Install](https://github.com/sunpyopark/aws/blob/master/guide/ElasticBeanstalk/guide-01.md/ "Guide 01 - Beanstalk")
-  - [Task 01 - Kubernetes Install with AWS](https://github.com/sunpyopark/aws/blob/master/guide/ElasticBeanstalk/guide-01.md "Guide 01 - Beanstalk")
+  - [Task 01 - Kubernetes Install with AWS using Kubeadm](https://github.com/sunpyopark/aws/blob/master/guide/ElasticBeanstalk/guide-01.md "Guide 01 - Beanstalk")
     * [INSTALL FOR AWS](https://github.com/sunpyopark/aws/blob/master/guide/ElasticBeanstalk/guide-01.md "Guide 01 - Beanstalk")
     + [INSTALL FOR MASTER & WORKER NODE](https://github.com/sunpyopark/aws/blob/master/guide/ElasticBeanstalk/guide-01.md "Guide 01 - Beanstalk")
     - [INSTALL FOR NODE](https://github.com/sunpyopark/aws/blob/master/guide/ElasticBeanstalk/guide-01.md "Guide 01 - Beanstalk")
